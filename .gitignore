@@ -1,0 +1,12 @@
+.DS_Store
+dist/
+__pycache__/
+*.pyc
+.venv/
+
+# jangan pernah ter-commit: memuat nama properti lain / kredensial
+release.config.json
+*.config.json
+temptoken
+.env
+.env.*

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it and link back to https://rajahasil.co/data/"
+type: dataset
+title: "RajaHasil 4D Results Archive"
+version: 1.1.0
+date-released: 2026-10-28
+license: CC-BY-4.0
+url: "https://rajahasil.co/data/"
+repository: "https://github.com/rajahasil/togel"
+authors:
+  - name: "RajaHasil"
+abstract: >-
+  Four-digit (4D) draw results for 5 markets (Singapore, Hong Kong, Sydney, Toto Macau and Cambodia) between 2020-01-01 and 2026-10-28, compiled from publicly available third-party archive sites and released as JSON and CSV. Unofficial and unverified. The session field is a WIB label, not a verified timestamp.
+keywords:
+  - lottery results
+  - 4D
+  - open data
+  - time series
+  - Singapore
+  - Hong Kong
+  - Sydney
+  - Macau
+  - Cambodia

@@ -1,0 +1,76 @@
+{
+  "dataset": "RajaHasil 4D Results Archive",
+  "license": "CC-BY-4.0",
+  "attribution": "Data: RajaHasil 4D Results Archive, https://rajahasil.co/data/ (CC BY 4.0)",
+  "documentation": "https://rajahasil.co/data/",
+  "session_note": "session is a time label in WIB (Asia/Jakarta) published by third-party archives. It is not a verified timestamp and not the local time of the market.",
+  "coverage_end": "2026-10-28",
+  "note": "Newest draw date held for each market. A date can be partial at the snapshot cut-off; see index.json.",
+  "markets": {
+    "SG": {
+      "last_draw_date": "2026-10-26",
+      "results": [
+        {
+          "market": "SG",
+          "draw_type": "4D",
+          "draw_date": "2026-10-26",
+          "session": "17:45",
+          "session_timezone": "Asia/Jakarta",
+          "result": "4502"
+        }
+      ]
+    },
+    "HK": {
+      "last_draw_date": "2026-10-27",
+      "results": [
+        {
+          "market": "HK",
+          "draw_type": "4D",
+          "draw_date": "2026-10-27",
+          "session": "23:00",
+          "session_timezone": "Asia/Jakarta",
+          "result": "4597"
+        }
+      ]
+    },
+    "SDY": {
+      "last_draw_date": "2026-10-27",
+      "results": [
+        {
+          "market": "SDY",
+          "draw_type": "4D",
+          "draw_date": "2026-10-27",
+          "session": "14:00",
+          "session_timezone": "Asia/Jakarta",
+          "result": "5513"
+        }
+      ]
+    },
+    "MC": {
+      "last_draw_date": "2026-10-28",
+      "results": [
+        {
+          "market": "MC",
+          "draw_type": "4D",
+          "draw_date": "2026-10-28",
+          "session": "00:01",
+          "session_timezone": "Asia/Jakarta",
+          "result": "0699"
+        }
+      ]
+    },
+    "CAM": {
+      "last_draw_date": "2026-10-27",
+      "results": [
+        {
+          "market": "CAM",
+          "draw_type": "4D",
+          "draw_date": "2026-10-27",
+          "session": "11:50",
+          "session_timezone": "Asia/Jakarta",
+          "result": "5288"
+        }
+      ]
+    }
+  }
+}

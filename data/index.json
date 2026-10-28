@@ -1,0 +1,822 @@
+{
+  "dataset": "RajaHasil 4D Results Archive",
+  "version": "1.1.0",
+  "released": "2026-10-28",
+  "license": {
+    "id": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "attribution": "Data: RajaHasil 4D Results Archive, https://rajahasil.co/data/ (CC BY 4.0)",
+  "documentation": "https://rajahasil.co/data/",
+  "verified": false,
+  "status": "Snapshot release. Not updated automatically; new data ships as versioned releases.",
+  "coverage": {
+    "start": "2020-01-01",
+    "end": "2026-10-28"
+  },
+  "total_records": 17850,
+  "session_label": {
+    "timezone": "Asia/Jakarta",
+    "note": "session is a time label in WIB (Asia/Jakarta) published by third-party archives. It is not a verified timestamp and not the local time of the market."
+  },
+  "markets": {
+    "SG": {
+      "name": "Singapore",
+      "market_timezone": "Asia/Singapore",
+      "records": 1723,
+      "first_date": "2020-01-01",
+      "last_date": "2026-10-26",
+      "draw_weekdays": [
+        "Mon",
+        "Wed",
+        "Thu",
+        "Sat",
+        "Sun"
+      ],
+      "sessions": [
+        "17:45"
+      ],
+      "multi_session": false,
+      "years": {
+        "2020": {
+          "records": 206,
+          "first_date": "2020-01-01",
+          "last_date": "2020-12-31",
+          "sessions": [
+            "17:45"
+          ],
+          "json": "SG/2020.json",
+          "csv": "SG/2020.csv"
+        },
+        "2021": {
+          "records": 260,
+          "first_date": "2021-01-02",
+          "last_date": "2021-12-30",
+          "sessions": [
+            "17:45"
+          ],
+          "json": "SG/2021.json",
+          "csv": "SG/2021.csv"
+        },
+        "2022": {
+          "records": 261,
+          "first_date": "2022-01-01",
+          "last_date": "2022-12-31",
+          "sessions": [
+            "17:45"
+          ],
+          "json": "SG/2022.json",
+          "csv": "SG/2022.csv"
+        },
+        "2023": {
+          "records": 260,
+          "first_date": "2023-01-01",
+          "last_date": "2023-12-31",
+          "sessions": [
+            "17:45"
+          ],
+          "json": "SG/2023.json",
+          "csv": "SG/2023.csv"
+        },
+        "2024": {
+          "records": 261,
+          "first_date": "2024-01-01",
+          "last_date": "2024-12-30",
+          "sessions": [
+            "17:45"
+          ],
+          "json": "SG/2024.json",
+          "csv": "SG/2024.csv"
+        },
+        "2025": {
+          "records": 261,
+          "first_date": "2025-01-01",
+          "last_date": "2025-12-31",
+          "sessions": [
+            "17:45"
+          ],
+          "json": "SG/2025.json",
+          "csv": "SG/2025.csv"
+        },
+        "2026": {
+          "records": 214,
+          "first_date": "2026-01-01",
+          "last_date": "2026-10-26",
+          "sessions": [
+            "17:45"
+          ],
+          "json": "SG/2026.json",
+          "csv": "SG/2026.csv"
+        }
+      },
+      "notes": [
+        "Five-day calendar (Mon, Wed, Thu, Sat, Sun) as listed by the compiled archives. It is not an official operator's draw schedule.",
+        "The session label is WIB. Singapore local time is WIB+1."
+      ]
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "market_timezone": "Asia/Hong_Kong",
+      "records": 2492,
+      "first_date": "2020-01-01",
+      "last_date": "2026-10-27",
+      "draw_weekdays": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "sessions": [
+        "23:00"
+      ],
+      "multi_session": false,
+      "years": {
+        "2020": {
+          "records": 366,
+          "first_date": "2020-01-01",
+          "last_date": "2020-12-31",
+          "sessions": [
+            "23:00"
+          ],
+          "json": "HK/2020.json",
+          "csv": "HK/2020.csv"
+        },
+        "2021": {
+          "records": 365,
+          "first_date": "2021-01-01",
+          "last_date": "2021-12-31",
+          "sessions": [
+            "23:00"
+          ],
+          "json": "HK/2021.json",
+          "csv": "HK/2021.csv"
+        },
+        "2022": {
+          "records": 365,
+          "first_date": "2022-01-01",
+          "last_date": "2022-12-31",
+          "sessions": [
+            "23:00"
+          ],
+          "json": "HK/2022.json",
+          "csv": "HK/2022.csv"
+        },
+        "2023": {
+          "records": 365,
+          "first_date": "2023-01-01",
+          "last_date": "2023-12-31",
+          "sessions": [
+            "23:00"
+          ],
+          "json": "HK/2023.json",
+          "csv": "HK/2023.csv"
+        },
+        "2024": {
+          "records": 366,
+          "first_date": "2024-01-01",
+          "last_date": "2024-12-31",
+          "sessions": [
+            "23:00"
+          ],
+          "json": "HK/2024.json",
+          "csv": "HK/2024.csv"
+        },
+        "2025": {
+          "records": 365,
+          "first_date": "2025-01-01",
+          "last_date": "2025-12-31",
+          "sessions": [
+            "23:00"
+          ],
+          "json": "HK/2025.json",
+          "csv": "HK/2025.csv"
+        },
+        "2026": {
+          "records": 300,
+          "first_date": "2026-01-01",
+          "last_date": "2026-10-27",
+          "sessions": [
+            "23:00"
+          ],
+          "json": "HK/2026.json",
+          "csv": "HK/2026.csv"
+        }
+      },
+      "notes": [
+        "The session label 23:00 is WIB. Hong Kong local time is WIB+1, so the same moment reads 00:00 on the following calendar day locally. The dataset keeps the archive's date and label unchanged and does not convert."
+      ]
+    },
+    "SDY": {
+      "name": "Sydney",
+      "market_timezone": "Australia/Sydney",
+      "records": 2126,
+      "first_date": "2021-01-01",
+      "last_date": "2026-10-27",
+      "draw_weekdays": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "sessions": [
+        "14:00"
+      ],
+      "multi_session": false,
+      "years": {
+        "2021": {
+          "records": 365,
+          "first_date": "2021-01-01",
+          "last_date": "2021-12-31",
+          "sessions": [
+            "14:00"
+          ],
+          "json": "SDY/2021.json",
+          "csv": "SDY/2021.csv"
+        },
+        "2022": {
+          "records": 365,
+          "first_date": "2022-01-01",
+          "last_date": "2022-12-31",
+          "sessions": [
+            "14:00"
+          ],
+          "json": "SDY/2022.json",
+          "csv": "SDY/2022.csv"
+        },
+        "2023": {
+          "records": 365,
+          "first_date": "2023-01-01",
+          "last_date": "2023-12-31",
+          "sessions": [
+            "14:00"
+          ],
+          "json": "SDY/2023.json",
+          "csv": "SDY/2023.csv"
+        },
+        "2024": {
+          "records": 366,
+          "first_date": "2024-01-01",
+          "last_date": "2024-12-31",
+          "sessions": [
+            "14:00"
+          ],
+          "json": "SDY/2024.json",
+          "csv": "SDY/2024.csv"
+        },
+        "2025": {
+          "records": 365,
+          "first_date": "2025-01-01",
+          "last_date": "2025-12-31",
+          "sessions": [
+            "14:00"
+          ],
+          "json": "SDY/2025.json",
+          "csv": "SDY/2025.csv"
+        },
+        "2026": {
+          "records": 300,
+          "first_date": "2026-01-01",
+          "last_date": "2026-10-27",
+          "sessions": [
+            "14:00"
+          ],
+          "json": "SDY/2026.json",
+          "csv": "SDY/2026.csv"
+        }
+      },
+      "notes": [
+        "The session label is WIB. Sydney's offset from WIB changes with daylight saving (+3 or +4 hours), so no single local time fits the whole year."
+      ]
+    },
+    "MC": {
+      "name": "Toto Macau",
+      "market_timezone": "Asia/Macau",
+      "records": 9017,
+      "first_date": "2021-01-01",
+      "last_date": "2026-10-28",
+      "draw_weekdays": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "sessions": [
+        "00:01",
+        "13:00",
+        "16:00",
+        "19:00",
+        "22:00",
+        "23:00"
+      ],
+      "multi_session": true,
+      "years": {
+        "2021": {
+          "records": 1456,
+          "first_date": "2021-01-01",
+          "last_date": "2021-12-31",
+          "sessions": [
+            "13:00",
+            "16:00",
+            "19:00",
+            "22:00"
+          ],
+          "json": "MC/2021.json",
+          "csv": "MC/2021.csv"
+        },
+        "2022": {
+          "records": 1594,
+          "first_date": "2022-01-01",
+          "last_date": "2022-12-31",
+          "sessions": [
+            "00:01",
+            "13:00",
+            "16:00",
+            "19:00",
+            "22:00"
+          ],
+          "json": "MC/2022.json",
+          "csv": "MC/2022.csv"
+        },
+        "2023": {
+          "records": 1981,
+          "first_date": "2023-01-01",
+          "last_date": "2023-12-31",
+          "sessions": [
+            "00:01",
+            "13:00",
+            "16:00",
+            "19:00",
+            "22:00",
+            "23:00"
+          ],
+          "json": "MC/2023.json",
+          "csv": "MC/2023.csv"
+        },
+        "2025": {
+          "records": 2187,
+          "first_date": "2025-01-01",
+          "last_date": "2025-12-31",
+          "sessions": [
+            "00:01",
+            "13:00",
+            "16:00",
+            "19:00",
+            "22:00",
+            "23:00"
+          ],
+          "json": "MC/2025.json",
+          "csv": "MC/2025.csv"
+        },
+        "2026": {
+          "records": 1799,
+          "first_date": "2026-01-01",
+          "last_date": "2026-10-28",
+          "sessions": [
+            "00:01",
+            "13:00",
+            "16:00",
+            "19:00",
+            "22:00",
+            "23:00"
+          ],
+          "json": "MC/2026.json",
+          "csv": "MC/2026.csv"
+        }
+      },
+      "notes": [
+        "Multi-session market: every session is its own record. The set of sessions published changes between years (see the per-year sessions list in index.json). No placeholder rows are inserted."
+      ]
+    },
+    "CAM": {
+      "name": "Cambodia",
+      "market_timezone": "Asia/Phnom_Penh",
+      "records": 2492,
+      "first_date": "2020-01-01",
+      "last_date": "2026-10-27",
+      "draw_weekdays": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "sessions": [
+        "11:50"
+      ],
+      "multi_session": false,
+      "years": {
+        "2020": {
+          "records": 366,
+          "first_date": "2020-01-01",
+          "last_date": "2020-12-31",
+          "sessions": [
+            "11:50"
+          ],
+          "json": "CAM/2020.json",
+          "csv": "CAM/2020.csv"
+        },
+        "2021": {
+          "records": 365,
+          "first_date": "2021-01-01",
+          "last_date": "2021-12-31",
+          "sessions": [
+            "11:50"
+          ],
+          "json": "CAM/2021.json",
+          "csv": "CAM/2021.csv"
+        },
+        "2022": {
+          "records": 365,
+          "first_date": "2022-01-01",
+          "last_date": "2022-12-31",
+          "sessions": [
+            "11:50"
+          ],
+          "json": "CAM/2022.json",
+          "csv": "CAM/2022.csv"
+        },
+        "2023": {
+          "records": 365,
+          "first_date": "2023-01-01",
+          "last_date": "2023-12-31",
+          "sessions": [
+            "11:50"
+          ],
+          "json": "CAM/2023.json",
+          "csv": "CAM/2023.csv"
+        },
+        "2024": {
+          "records": 366,
+          "first_date": "2024-01-01",
+          "last_date": "2024-12-31",
+          "sessions": [
+            "11:50"
+          ],
+          "json": "CAM/2024.json",
+          "csv": "CAM/2024.csv"
+        },
+        "2025": {
+          "records": 365,
+          "first_date": "2025-01-01",
+          "last_date": "2025-12-31",
+          "sessions": [
+            "11:50"
+          ],
+          "json": "CAM/2025.json",
+          "csv": "CAM/2025.csv"
+        },
+        "2026": {
+          "records": 300,
+          "first_date": "2026-01-01",
+          "last_date": "2026-10-27",
+          "sessions": [
+            "11:50"
+          ],
+          "json": "CAM/2026.json",
+          "csv": "CAM/2026.csv"
+        }
+      },
+      "notes": [
+        "Phnom Penh is UTC+7, the same as WIB, so the session label and the local clock coincide."
+      ]
+    }
+  },
+  "known_gaps": [
+    {
+      "market": "SG",
+      "from": "2020-04-06",
+      "to": "2020-06-22",
+      "days": 56,
+      "note": "No records in the compiled archives for this period."
+    },
+    {
+      "market": "SG",
+      "from": "2023-10-23",
+      "to": "2023-10-23",
+      "days": 1,
+      "note": "Withheld, see exclusions."
+    },
+    {
+      "market": "MC",
+      "from": "2021-09-30",
+      "to": "2021-09-30",
+      "days": 1,
+      "note": "Not present in the compiled archives."
+    },
+    {
+      "market": "MC",
+      "from": "2024-01-01",
+      "to": "2024-12-31",
+      "days": 366,
+      "note": "The compiled archives do not cover 2024 for this market."
+    }
+  ],
+  "exclusions": [
+    {
+      "market": "SG",
+      "draw_date": "2023-10-23",
+      "session": "17:45",
+      "reason": "The compiled archives disagree on the result of this draw, so it is withheld rather than guessed."
+    }
+  ],
+  "partial_last_day": [
+    {
+      "market": "MC",
+      "draw_date": "2026-10-28",
+      "sessions_present": [
+        "00:01"
+      ]
+    }
+  ],
+  "checks": {
+    "unique_key": [
+      "market",
+      "draw_date",
+      "session",
+      "draw_type"
+    ],
+    "results_with_leading_zero": 1883
+  },
+  "files": {
+    "CAM/2020.csv": {
+      "bytes": 15431,
+      "sha256": "24d6d9a8f43d3283473a0d009585361637d2b7ee67e8669f55f67edf7d5ad520"
+    },
+    "CAM/2020.json": {
+      "bytes": 48771,
+      "sha256": "ba726659e2152570f62bcf7cf9f2b47acdb190fdc99aa97780ce007f53ec9619"
+    },
+    "CAM/2021.csv": {
+      "bytes": 15389,
+      "sha256": "9d5eff97ae8ba319f4fe994b4755e914b639a7cf4fcd12a445e66dbadec43e17"
+    },
+    "CAM/2021.json": {
+      "bytes": 48639,
+      "sha256": "953cb8f3c902576bfbc6a3385e07131c4b83908fd12cc2e6032e70ec449eeb1b"
+    },
+    "CAM/2022.csv": {
+      "bytes": 15389,
+      "sha256": "fdda95e25c35c91c2c51b1735603cad3751e2c7381e1f1e88cc1dd8bd459a2cd"
+    },
+    "CAM/2022.json": {
+      "bytes": 48639,
+      "sha256": "7e09d3283de40b90e2e619502897538293ad65d45ca56a4caac0399c6299c775"
+    },
+    "CAM/2023.csv": {
+      "bytes": 15389,
+      "sha256": "e0b303236585f2cb8f04597103d4cc5c3f31ce859d9dccea38f566112a79d829"
+    },
+    "CAM/2023.json": {
+      "bytes": 48639,
+      "sha256": "687780f81369cdd9bc13c27196ed88198377381f7bb7fb46e8e29e0882554aa8"
+    },
+    "CAM/2024.csv": {
+      "bytes": 15431,
+      "sha256": "2bd54baa7f91c824cf0e7800aa34af3d82d99f0193b74ca54fda39b4acd1c4c3"
+    },
+    "CAM/2024.json": {
+      "bytes": 48771,
+      "sha256": "30f568f9f869ad7fa257b05cc389e427ce9612b89ee896f5649c2b841263f6ce"
+    },
+    "CAM/2025.csv": {
+      "bytes": 15389,
+      "sha256": "1edf7c2103be73464ba3fc0480878ee63043cc9478b74aac80aa4aeb143c1757"
+    },
+    "CAM/2025.json": {
+      "bytes": 48639,
+      "sha256": "9e3f8e6a55c63f6c1fa391a5bbcaae6db316b9f1c6b22363dcd5ca64650141be"
+    },
+    "CAM/2026.csv": {
+      "bytes": 12659,
+      "sha256": "4c9f938acf7916db8683e032f7c3db45b4a75693897bc816b1017dc8c7ec09d1"
+    },
+    "CAM/2026.json": {
+      "bytes": 40059,
+      "sha256": "dec7026f2cbfdea094bbe365384ea05c425bf6a98d87cb8f35a62c779ff68e9d"
+    },
+    "HK/2020.csv": {
+      "bytes": 15065,
+      "sha256": "273de23d438cb7d15126056a7411668242ba5734bf58260c7981efe497d76da8"
+    },
+    "HK/2020.json": {
+      "bytes": 48404,
+      "sha256": "bad66ebe187345ebb5d94557e9dc151d8b997dfa1913de0c74e28aa2dd887396"
+    },
+    "HK/2021.csv": {
+      "bytes": 15024,
+      "sha256": "f0741302fe1cee5996b338444561de633de6a67f2c10a557b3832892a2659ef9"
+    },
+    "HK/2021.json": {
+      "bytes": 48273,
+      "sha256": "6a79a06dcb3460e90f239a306070b5d95312845ecda68d49c808b72b64791034"
+    },
+    "HK/2022.csv": {
+      "bytes": 15024,
+      "sha256": "d0f92f10bf368348b9822960fad02e47d6da59463c262a47f665cd250f0eb478"
+    },
+    "HK/2022.json": {
+      "bytes": 48273,
+      "sha256": "d99873f243f71c7b963442495add3654e45482af09dc17cced5cc3b93d5d573a"
+    },
+    "HK/2023.csv": {
+      "bytes": 15024,
+      "sha256": "e66dc051889f34067f5f58c86351ee11f8b801834323faac137fa7799141d1db"
+    },
+    "HK/2023.json": {
+      "bytes": 48273,
+      "sha256": "c4a55e7b6df01ee2a66785bbc0c8bbbaa17b1a1c8b62e14afd1908fe9476646b"
+    },
+    "HK/2024.csv": {
+      "bytes": 15065,
+      "sha256": "5cf8b67c1c5479cb38aee21c519f42620c8995ab9b2ffdfb0649558450229cec"
+    },
+    "HK/2024.json": {
+      "bytes": 48404,
+      "sha256": "d424ebbf4449c9062ff7fbaaaa8b5ce0fac1cdf1739abdc9bdd36ac1d1c6dad1"
+    },
+    "HK/2025.csv": {
+      "bytes": 15024,
+      "sha256": "78ff24fd719a152d09ea0ea4c6ae3efafa1f50b3a2166ce471e55a30d637a2e6"
+    },
+    "HK/2025.json": {
+      "bytes": 48273,
+      "sha256": "5c0d5e8508bdc9ad7539efe468134c7da5edc27cc6b83424813b5068810123ed"
+    },
+    "HK/2026.csv": {
+      "bytes": 12359,
+      "sha256": "b7ae02d4d57dbaf468cc599e005c1c8018740129731bd18d262c9601ad76f9a9"
+    },
+    "HK/2026.json": {
+      "bytes": 39758,
+      "sha256": "0153da29af7456c1822884a243f06247763fe65911413c43190bb5e784d56426"
+    },
+    "MC/2021.csv": {
+      "bytes": 59755,
+      "sha256": "cebba705c654bdf8165a443bfbc1792287e496e749572d35dd520d0df12fc7b2"
+    },
+    "MC/2021.json": {
+      "bytes": 191195,
+      "sha256": "f83911eaa0ada64c3d941fe9861ff9e9cc8aa588be005610bc6d281e7a1ad359"
+    },
+    "MC/2022.csv": {
+      "bytes": 65413,
+      "sha256": "a764ec2266f9a8a94b7a0d85017fe257418476afb52b214d9ff7011474544c40"
+    },
+    "MC/2022.json": {
+      "bytes": 209273,
+      "sha256": "4adc4679cd80cee42e73dabf4e70756fb88eb10c395868210a8bfc586415736d"
+    },
+    "MC/2023.csv": {
+      "bytes": 81280,
+      "sha256": "07f3b1db1dc44d87164fe32eb9b28759e194ca7433b5ae547d769d8d56bf2707"
+    },
+    "MC/2023.json": {
+      "bytes": 259970,
+      "sha256": "7c6772916533a19fd59bdbdfcbb8ce0c987f10ac77b38bc14397d31cda24502d"
+    },
+    "MC/2025.csv": {
+      "bytes": 89726,
+      "sha256": "4f35b40535d75ec6c11c519b7b8a214a9303a3d0f0c0d9ca8d01250c8605abdc"
+    },
+    "MC/2025.json": {
+      "bytes": 286956,
+      "sha256": "aa1db00e11f55200c74fa8ecf2ce375e77b62153242f870d4bec75761f3e2c5a"
+    },
+    "MC/2026.csv": {
+      "bytes": 73818,
+      "sha256": "47a347087c063d0b2e2a7350a4e9cc428112334a3337ded3a3c63372ce3bc1da"
+    },
+    "MC/2026.json": {
+      "bytes": 236128,
+      "sha256": "880009a74c215dba25d99c4e25d28c1db22899dc1c102494be22dcdcf5aa5c8b"
+    },
+    "SDY/2021.csv": {
+      "bytes": 15389,
+      "sha256": "86815e42830517073379890f4c589fb97f676ea0ccff8692ca2728f2fb1e28ee"
+    },
+    "SDY/2021.json": {
+      "bytes": 48639,
+      "sha256": "a4bde80bd10ba6fc44a7cd83ef7c2b5b40b7580f04784835a7bfad7deb92e352"
+    },
+    "SDY/2022.csv": {
+      "bytes": 15389,
+      "sha256": "54e9eafee0e9423f8bc7f5e0e16fa216e24403a3da7f3c31e544a2a51467cbc4"
+    },
+    "SDY/2022.json": {
+      "bytes": 48639,
+      "sha256": "541311103368265fde694e76b6a1dc57dea40002c18751607456fb2163e5e6c4"
+    },
+    "SDY/2023.csv": {
+      "bytes": 15389,
+      "sha256": "e2c2badeb038d11ea145496706e0c34981b4b2ac29e2cf942c7586bd1262065b"
+    },
+    "SDY/2023.json": {
+      "bytes": 48639,
+      "sha256": "991a805a56a0e692af6905b6a685bb9e6e989f369924e474e84356af6a4c4f64"
+    },
+    "SDY/2024.csv": {
+      "bytes": 15431,
+      "sha256": "b0781c5508276e93b4080b1bb92f8b81c60ec68f95847994c60e708bb94eee9b"
+    },
+    "SDY/2024.json": {
+      "bytes": 48771,
+      "sha256": "28a88d3bf7d11a4704e4462773844660f126c0a763572a39b0f1abdc0adf31ad"
+    },
+    "SDY/2025.csv": {
+      "bytes": 15389,
+      "sha256": "e5bb274c7ad3cb8b454535e2fead3805b45da04e8e0ad5816f72effe31dea66c"
+    },
+    "SDY/2025.json": {
+      "bytes": 48639,
+      "sha256": "8816dc8bb2391c3f130d2a3617cde2318fe2d927d3e1de64e57ccc0365670b45"
+    },
+    "SDY/2026.csv": {
+      "bytes": 12659,
+      "sha256": "9988295a3938712d590f59629db8f38cce2b7dd1ddc6c259a05271480924979c"
+    },
+    "SDY/2026.json": {
+      "bytes": 40059,
+      "sha256": "b085fb8fb96557d6fad37a4d06624f4d3d9144e5eea99ee89f440b8a5da94004"
+    },
+    "SG/2020.csv": {
+      "bytes": 8505,
+      "sha256": "ad2a4cf5e63c26b4205bb941e0e71eba1cb5773b669a0830f362a058a9a86370"
+    },
+    "SG/2020.json": {
+      "bytes": 27444,
+      "sha256": "c71d1e486e8994a9aad987e475240220463baea875b8997c3b821cdb561d1d37"
+    },
+    "SG/2021.csv": {
+      "bytes": 10719,
+      "sha256": "48d4aca2bd69156b8652a90180e5256facfd0eafb950f403f4e7da7d5c63ad2b"
+    },
+    "SG/2021.json": {
+      "bytes": 34518,
+      "sha256": "6648b18a803f47c229dd0557ce657170566b360fd401da78dfe6d9299324be44"
+    },
+    "SG/2022.csv": {
+      "bytes": 10760,
+      "sha256": "4391a1e5fcde09e0dafb3f94d377307a8fd1d28f848510757e6a86ad026bbb27"
+    },
+    "SG/2022.json": {
+      "bytes": 34649,
+      "sha256": "1c4831f8bb9362f5d81659e50dcacd49600f7ade2a13f5498741a4d9d04f6830"
+    },
+    "SG/2023.csv": {
+      "bytes": 10719,
+      "sha256": "89d03ffef28365bd2306e71046eb8f9f020723447599b395fb99e30ab6a3a8e3"
+    },
+    "SG/2023.json": {
+      "bytes": 34518,
+      "sha256": "84c7b37b247f388f28d3259d2dd236473914577dd1c00214cc8b53d93e13ddd9"
+    },
+    "SG/2024.csv": {
+      "bytes": 10760,
+      "sha256": "e0eafffa945d814516b72448d32bbf88d0895006844bb8be4396d41bb72f898d"
+    },
+    "SG/2024.json": {
+      "bytes": 34649,
+      "sha256": "69ed736d898feeaedef371df8e9c6e42691ec1cd5148ccf426d4a6c136ab6dfe"
+    },
+    "SG/2025.csv": {
+      "bytes": 10760,
+      "sha256": "4a4eaaadb326a7ae039636edbc982aee15e625efff4c752af9daab8d71b8a89f"
+    },
+    "SG/2025.json": {
+      "bytes": 34649,
+      "sha256": "49c10816feeb46df21cba1e04fbe5f67ca5b1686f032a87c14d7e4445cbf0f30"
+    },
+    "SG/2026.csv": {
+      "bytes": 8833,
+      "sha256": "55758827aff00846bc96fe3c606dd433e99c327c72c21ca7d3fb70281c1c9798"
+    },
+    "SG/2026.json": {
+      "bytes": 28492,
+      "sha256": "1841e070f6c3062b89af61a1d09bc6715cd04d25d155086ddda70ff2bf8a991b"
+    },
+    "draws.csv": {
+      "bytes": 736527,
+      "sha256": "58f9e748e01718e89fc561c2b9ed2028683d0c7c9a5a9f5b328aefba61b67217"
+    },
+    "draws.json": {
+      "bytes": 2343394,
+      "sha256": "e949177fb52f186921d416b11222505842186739b6262691d447151e60e9d87a"
+    },
+    "latest.json": {
+      "bytes": 2054,
+      "sha256": "234589c1454915afde5e0bd620e92bc444ab936069962cf08be6d6a93cf89929"
+    }
+  }
+}

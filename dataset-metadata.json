@@ -1,0 +1,42 @@
+{
+  "title": "RajaHasil 4D Results Archive",
+  "subtitle": "Daily 4-digit lottery results for 5 markets, 2020-01-01 to 2026-10-28, as JSON and CSV.",
+  "description": "RajaHasil 4D Results Archive version 1.1.0.\n\n17,850 records across 5 markets, 2020-01-01 to 2026-10-28. Unofficial compilation from public archives; it is not an operator's record.\n\nIMPORTANT: `result` is a four-character string and keeps leading zeros (1,883 values begin with a zero). Read it as text, not as a number.\n\n`session` is a time label in WIB (Asia/Jakarta) as published by the source archives. It is not a verified timestamp and not the market's local time.\n\nDocumentation and canonical copy: https://rajahasil.co/data/\nLicense: Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "lottery",
+    "lottery results",
+    "4-digit",
+    "time series",
+    "archive",
+    "asia",
+    "hong kong",
+    "singapore",
+    "sydney",
+    "macau",
+    "cambodia"
+  ],
+  "resources": [
+    {
+      "path": "draws.csv",
+      "description": "All 17,850 records, one row per draw. Declare `result` as text when loading."
+    },
+    {
+      "path": "draws.json",
+      "description": "The same records as JSON; values are already strings."
+    },
+    {
+      "path": "latest.json",
+      "description": "Most recent draw per market, plus coverage end."
+    },
+    {
+      "path": "index.json",
+      "description": "Manifest: coverage, per-market statistics, known gaps, and the SHA-256 of every file."
+    }
+  ],
+  "id": "RajaHasil/Togel"
+}
